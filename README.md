@@ -121,10 +121,9 @@ Label: 0 is application approved and 1 is application rejected.
      random forest or boosting technique like xgboost are also used. Naive Bayes algorithm also works well in small and complex datasets. So, it is also included in the list.
     
 ​
-2. The dataset is unbalanced and it will create a bias model if an algorithm is trained using this raw dataset.
+2. The dataset is unbalanced and it will create a bias model if an algorithm is trained using this raw dataset
     
     APPROACHES:
-    
     Two possible approaches arises while dealing with unbalanced dataset
     
      -To select the significance features first and handle the unbalanced data(oversampling in this case)
