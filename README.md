@@ -138,11 +138,8 @@ Label: 0 is application approved and 1 is application rejected.
       
     According to a study, for a highly unbalanced dataset, it is better to do the feature selection first
     and then handle the unbalaced data later rather than handling the
-    imbalanced data first and then do the feature selection. The link of the study is attached below
+    imbalanced data first and then do the feature selection. The link of the study is attached below.
     
-    https://www.mdpi.com/2076-3417/11/14/6574#:~:text=Note%20that%20IG%2BSMOTE%20and,represent%20the%20opposite%20combination%20order.
-
-​
 ​
     -The unbalanced dataset is handled using imbalanced-learn library
 
