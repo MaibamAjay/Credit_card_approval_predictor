@@ -1,5 +1,6 @@
-Introduction
-Predicting a good credit card client is immensely valuable for a bank for several reasons
+# Introduction
+
+### Predicting a good credit card client is immensely valuable for a bank for several reasons
 1.Risk Mitigation: Identifying clients who are likely to be responsible borrowers reduces the risk of defaults and late payments. This, in turn, helps the bank preserve its assets and maintain a healthy loan portfolio.
 
 2.Profitability: Good credit card clients tend to use their cards regularly and pay their bills on time. This generates interest income for the bank in the form of finance charges. Additionally, responsible clients are more likely to use other banking services, such as loans and mortgages, which further boosts the bank's profitability.
@@ -21,11 +22,11 @@ Predicting a good credit card client is immensely valuable for a bank for severa
 10.Risk Diversification: A bank with a mix of high and low-risk clients can diversify its risk, reducing exposure to economic downturns and unforeseen events
 
  
-Project problem statement
+# Project problem statement
 The bank has been using credit score measure to check the eligibility of the customers for issuing the credit card. Now, in addition to the credit score, the bank want to include the personal informations of their customers in deciding the credit card eligibility.
 
 
-Objective
+# Objective
 1. To determine which personal informations(features) are more helpful in predicting the credit card eligibilty.
 2. Since the WRONG Credit Card Approval(False Positive) is very costly for the bank, the most important evaluation metrics of this Classification model should be Precision Score. 
 So, The Classification model having the highest Precision Score is to be chosen.
@@ -83,8 +84,9 @@ Another data set (Credit_card_label.csv) contains two key pieces of information
 ​
 ID: The joining key between application data and credit status data, same is Ind_ID
 ​
-Label: 0 is application approved and 1 is application rejected. 
-Challenges and solutions approaches while using this dataset
+Label: 0 is application approved and 1 is application rejected.
+
+# Challenges and solutions approaches while using this dataset
 1. The small dataset size is a problem for training machine learning model since such dataset has 
 ​
     -the potential of overfitting(low bias, high variance)
@@ -120,7 +122,7 @@ Challenges and solutions approaches while using this dataset
     
     -Since the dataset is very small, oversampling methods is used.
 ​
-Techniques and tools used in building the model
+# Techniques and tools used in building the model
 ​
 1. Sklearn and imblearn pipelines are used to streamline the transformations for both the training and testing dataset.
 ​
