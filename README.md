@@ -128,23 +128,23 @@ Label: 0 is application approved and 1 is application rejected.
     
     2 possible approaches arises while dealing with unbalanced dataset
     
-    - To select the significance features first and handle the unbalanced data(oversampling in this case)
+     - To select the significance features first and handle the unbalanced data(oversampling in this case)
         
-    - To handle the unbalanced data first and select the significance features later.
+     - To handle the unbalanced data first and select the significance features later.
       
-    -According to a study, for a highly unbalanced dataset, it is better to do the feature selection first and then handle the unbalaced data later rather than handling the
+    According to a study, for a highly unbalanced dataset, it is better to do the feature selection first and then handle the unbalaced data later rather than handling the
     imbalanced data first and then do the feature selection. The link of the study is attached below
     
-    https://www.mdpi.com/2076-3417/11/14/6574#:~:text=Note%20that%20IG%2BSMOTE%20and,represent%20the%20opposite%20combination%20order.
-​
-​
+  
     -The unbalanced dataset is handled using imbalanced-learn library
     
     -Since the dataset is very small, oversampling methods is used.
 ​
 # Techniques and tools used in building the model
-​
 1. Sklearn and imblearn pipelines are used to streamline the transformations for both the training and testing dataset.
 ​
 2. Custom transformers are created and used in the pipelines to ease the transformation of the datasets.
+
+# Reference
+  https://www.mdpi.com/2076-3417/11/14/6574#:~:text=Note%20that%20IG%2BSMOTE%20and,represent%20the%20opposite%20combination%20order
 ​
