@@ -128,22 +128,15 @@ Label: 0 is application approved and 1 is application rejected.
     
     APPROACHES:
     2 possible approaches arises while dealing with unbalanced dataset
-
     
-    - To select the significance features first and handle the unbalanced data(oversampling in this case)
-
-        
+    - To select the significance features first and handle the unbalanced data(oversampling in this case)  
     - To handle the unbalanced data first and select the significance features later.
 
-      
     According to a study, for a highly unbalanced dataset, it is better to do the feature selection first
     and then handle the unbalaced data later rather than handling the
     imbalanced data first and then do the feature selection. The link of the study is attached below.
     
-​
     -The unbalanced dataset is handled using imbalanced-learn library
-
-    
     -Since the dataset is very small, oversampling methods is used.
 
 ​
