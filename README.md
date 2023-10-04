@@ -120,8 +120,8 @@ Label: 0 is application approved and 1 is application rejected.
     
     -the number of categories for each categorical features should be made as fewer as possible since the dataset is very small
     
-    -Since there is a high chance of overfitting with this small dataset, simple machine learning algorithms like logistic regression is prefered first, and ensemble methods like 
-     random forest or boosting technique like xgboost are also used. Naive Bayes algorithm also works well in small and complex datasets. So, it is also included in the list.
+    -Since there is a high chance of overfitting with this small dataset, simple machine learning algorithms like logistic regression is preferred first, and ensemble methods like 
+     random forest or boosting technique like xgboost are also used. Support Vector Machine and Naive Bayes algorithm also perform well in small and complex datasets. So, they are also included in the list.
     
 ​
 2. The dataset is unbalanced and it will create a bias model if an algorithm is trained using this raw dataset
